@@ -27,7 +27,7 @@ public class canvasManager : MonoBehaviour
         //     DeActivateAllCanvas();
         // }
 
-        Time.timeScale = 1;
+        resumeGame();
     }
 
     void DeActivateAllCanvas()
